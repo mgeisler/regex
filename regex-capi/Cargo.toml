@@ -11,6 +11,10 @@ description = """
 A C API for Rust's regular expression library.
 """
 
+[badges]
+travis-ci = { repository = "rust-lang/regex" }
+appveyor = { repository = "rust-lang-libs/regex" }
+ 
 [lib]
 name = "rure"
 crate-type = ["staticlib", "cdylib"]
